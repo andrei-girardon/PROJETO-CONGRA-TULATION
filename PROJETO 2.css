@@ -19,9 +19,10 @@ header {
     margin-right: 32px;
     cursor: pointer;
 }
+
 .button-header {
     background: #6fbf44;
-    border: 1px solid #4cb538
+    border: 1px solid #4cb538;
     border-radius: 6px;
     width: 124px;
     height: 51px;
@@ -33,6 +34,7 @@ header {
     cursor: pointer;
     letter-spacing: 1px;
 }
+
 .logo-image {
     margin-top: 163px;
     margin-left: 121px;
@@ -70,7 +72,9 @@ p {
 }
 
 @media  screen and (max-width:1300px ) {
-    
+      header {
+            display: none;
+        }
 
    }
 
